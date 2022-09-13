@@ -8,7 +8,7 @@ def isPrimeMyMethod(number):
             return False
     return True
 
-#Some function I got from the web
+#The most primitive approach
 def isPrime(n):
     for i in range(2,n):
         if (n%i) == 0:
